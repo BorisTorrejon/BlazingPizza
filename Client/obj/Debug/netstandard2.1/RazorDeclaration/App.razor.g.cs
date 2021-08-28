@@ -75,6 +75,13 @@ using BlazingPizza.Client.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 10 "C:\Users\b_e_t\Documents\00PROJECTS\BlazingPizza\Client\_Imports.razor"
+using BlazingPizza.Shared;
+
+#line default
+#line hidden
+#nullable disable
     public partial class App : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998

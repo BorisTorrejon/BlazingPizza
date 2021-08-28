@@ -1,10 +1,10 @@
 C:\Users\b_e_t\Documents\00PROJECTS\BlazingPizza\Shared\bin\Debug\netstandard2.1\BlazingPizza.Shared.deps.json
 C:\Users\b_e_t\Documents\00PROJECTS\BlazingPizza\Shared\bin\Debug\netstandard2.1\BlazingPizza.Shared.dll
 C:\Users\b_e_t\Documents\00PROJECTS\BlazingPizza\Shared\bin\Debug\netstandard2.1\BlazingPizza.Shared.pdb
-C:\Users\b_e_t\Documents\00PROJECTS\BlazingPizza\Shared\obj\Debug\netstandard2.1\BlazingPizza.Shared.csproj.AssemblyReference.cache
 C:\Users\b_e_t\Documents\00PROJECTS\BlazingPizza\Shared\obj\Debug\netstandard2.1\BlazingPizza.Shared.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\b_e_t\Documents\00PROJECTS\BlazingPizza\Shared\obj\Debug\netstandard2.1\BlazingPizza.Shared.AssemblyInfoInputs.cache
 C:\Users\b_e_t\Documents\00PROJECTS\BlazingPizza\Shared\obj\Debug\netstandard2.1\BlazingPizza.Shared.AssemblyInfo.cs
 C:\Users\b_e_t\Documents\00PROJECTS\BlazingPizza\Shared\obj\Debug\netstandard2.1\BlazingPizza.Shared.csproj.CoreCompileInputs.cache
 C:\Users\b_e_t\Documents\00PROJECTS\BlazingPizza\Shared\obj\Debug\netstandard2.1\BlazingPizza.Shared.dll
 C:\Users\b_e_t\Documents\00PROJECTS\BlazingPizza\Shared\obj\Debug\netstandard2.1\BlazingPizza.Shared.pdb
+C:\Users\b_e_t\Documents\00PROJECTS\BlazingPizza\Shared\obj\Debug\netstandard2.1\BlazingPizza.Shared.csproj.AssemblyReference.cache
