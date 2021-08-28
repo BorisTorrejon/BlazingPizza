@@ -10,5 +10,7 @@ namespace BlazingPizza.Shared
         public string Name { get; set; }
         public decimal BasePrice { get; set; }
         public string Description { get; set; }
+        public string ImageURL { get; set; }
+        public string GetFormattedBasePrice() => BasePrice.ToString("0.00");
     }
 }

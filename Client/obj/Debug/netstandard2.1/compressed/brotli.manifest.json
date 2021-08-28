@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\feR_g3ZLlJG4ePfsf8q0VNT-Ip4bb1WzmqmN75gkS6Q=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\QIyq8xH0zx515XkD-d2hPqc_Y5sSOmopJyPx6Ce4MHU=.hash",
       "Source": "C:\\Users\\b_e_t\\Documents\\00PROJECTS\\BlazingPizza\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\BlazingPizza.Client.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/BlazingPizza.Client.dll.br"
     },
@@ -256,7 +256,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.ComponentModel.DataAnnotations.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\m951grdsDZ4lMIyoyFqxRTAl-zvwXTEVmG0_tlRrFcI=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\lFUYJ7csV1KV9pmOhxYSUlOT0maJ6nUR0WU-20orKy4=.hash",
       "Source": "C:\\Users\\b_e_t\\Documents\\00PROJECTS\\BlazingPizza\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\BlazingPizza.Client.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/BlazingPizza.Client.pdb.br"
     },
@@ -281,7 +281,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\OqYCZvuWlqZayNyYT4V1Ay0pe1bkIRDn0KuMbgXYEag=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\WiuZsGi4inB-O4ZnIV8zr4OdV_I608Pnmyz_EUFncRk=.hash",
       "Source": "C:\\Users\\b_e_t\\Documents\\00PROJECTS\\BlazingPizza\\Client\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.br"
     }
