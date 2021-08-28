@@ -1,0 +1,4 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="/" Path="C:\Users\b_e_t\Documents\00PROJECTS\BlazingPizza\Client\bin\Debug\netstandard2.1\wwwroot\" />
+  <ContentRoot BasePath="/" Path="C:\Users\b_e_t\Documents\00PROJECTS\BlazingPizza\Client\wwwroot\" />
+</StaticWebAssets>
