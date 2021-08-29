@@ -359,6 +359,6 @@ C:\Users\b_e_t\Documents\00PROJECTS\BlazingPizza\Client\obj\Debug\netstandard2.1
 C:\Users\b_e_t\Documents\00PROJECTS\BlazingPizza\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.Net.Http.Json.dll.br
 C:\Users\b_e_t\Documents\00PROJECTS\BlazingPizza\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\BlazingPizza.Shared.dll.br
 C:\Users\b_e_t\Documents\00PROJECTS\BlazingPizza\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\BlazingPizza.Shared.pdb.br
-C:\Users\b_e_t\Documents\00PROJECTS\BlazingPizza\Client\obj\Debug\netstandard2.1\integrity\-1xVuo3M7aCDGV4rxXMC8NmSBgkvNtiLVtS1xAjrltk=.hash
-C:\Users\b_e_t\Documents\00PROJECTS\BlazingPizza\Client\obj\Debug\netstandard2.1\integrity\2iWKTm0HO2pSxcuZxBoQPx5dzAWV08KBRb1FjT_a1FQ=.hash
-C:\Users\b_e_t\Documents\00PROJECTS\BlazingPizza\Client\obj\Debug\netstandard2.1\integrity\uPYvJKtEmVWtsFlCZ50DL2Br5OTA2qVD3Eu_Sgwp6gM=.hash
+C:\Users\b_e_t\Documents\00PROJECTS\BlazingPizza\Client\obj\Debug\netstandard2.1\integrity\7kztn8z0LKPQ3V84GcVqvhwu2WcawfO8NKASudvEpDI=.hash
+C:\Users\b_e_t\Documents\00PROJECTS\BlazingPizza\Client\obj\Debug\netstandard2.1\integrity\GOD7Ia8hUGKqqoeqE-FArs9HndXwsxOC4JLdS8ayCEg=.hash
+C:\Users\b_e_t\Documents\00PROJECTS\BlazingPizza\Client\obj\Debug\netstandard2.1\integrity\lq2UyhycpagOnzm2gjYs25WT3d66QoRywtbNmCvmCnU=.hash
