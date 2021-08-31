@@ -22,7 +22,8 @@ namespace BlazingPizza.Server
             using (var Scope = ScopeFactory.CreateScope())
             {
                 var Context = Scope.ServiceProvider.GetRequiredService<PizzaStoreContext>();
-                if (Context.Specials.Count() == 0 ) {
+                if (Context.Specials.Count() == 0)
+                {
                     SeedData.Initialize(Context);
                 }
             }

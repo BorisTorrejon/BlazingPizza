@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace BlazingPizza.Client.Pages
+namespace BlazingPizza.Client.Shared
 {
     #line hidden
     using System;
@@ -82,8 +82,7 @@ using BlazingPizza.Shared;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/")]
-    public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
+    public partial class ConfigurePizzaDialog : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -91,34 +90,14 @@ using BlazingPizza.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 30 "C:\Users\b_e_t\Documents\00PROJECTS\BlazingPizza\Client\Pages\Index.razor"
+#line 33 "C:\Users\b_e_t\Documents\00PROJECTS\BlazingPizza\Client\Shared\ConfigurePizzaDialog.razor"
       
-    List<PizzaSpecial> Specials;
-    Pizza ConfiguringPizza;
-    bool ShowingConfigureDialog;
-
-
-    protected async override Task OnInitializedAsync()
-    {
-        Specials = await httpClient.GetFromJsonAsync<List<PizzaSpecial>>("specials");
-    }
-
-    void ShowConfigurePizzaDialog(PizzaSpecial special)
-    {
-        ConfiguringPizza = new Pizza()
-        {
-            Special = special,
-            SpecialId = special.Id,
-            Size = Pizza.DefaultSize,
-            Toppings = new List<PizzaTopping>()
-        };
-        ShowingConfigureDialog = true;
-    }
+    [Parameter]
+    public Pizza Pizza { get; set; }
 
 #line default
 #line hidden
 #nullable disable
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private HttpClient httpClient { get; set; }
     }
 }
 #pragma warning restore 1591
