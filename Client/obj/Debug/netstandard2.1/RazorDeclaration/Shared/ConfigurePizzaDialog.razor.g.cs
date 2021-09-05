@@ -90,14 +90,44 @@ using BlazingPizza.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 33 "C:\Users\b_e_t\Documents\00PROJECTS\BlazingPizza\Client\Shared\ConfigurePizzaDialog.razor"
+#line 70 "C:\Users\b_e_t\Documents\00PROJECTS\BlazingPizza\Client\Shared\ConfigurePizzaDialog.razor"
       
     [Parameter]
     public Pizza Pizza { get; set; }
+    [Parameter]
+    public EventCallback OnCancel { get; set; }
+
+    [Parameter]
+    public EventCallback OnConfirm { get; set; }
+
+    List<Topping> Toppings;
+    protected async override Task OnInitializedAsync()
+    {
+        Toppings = await HttpClient.GetFromJsonAsync<List<Topping>>("toppings");
+    }
+    void AddTopping(Topping topping)
+    {
+        if (Pizza.Toppings.Find(pt => pt.Topping == topping) == null)
+        {
+            Pizza.Toppings.Add(new PizzaTopping { Topping = topping });
+        }
+    }
+    void RemoveTopping(Topping topping)
+    {
+        Pizza.Toppings.RemoveAll(pt => pt.Topping == topping);
+    }
+    void ToppingSelected(ChangeEventArgs e)
+    {
+        if (int.TryParse(e.Value.ToString(), out var index) && index >= 0)
+        {
+            AddTopping(Toppings[index]);
+        }
+    }
 
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private HttpClient HttpClient { get; set; }
     }
 }
 #pragma warning restore 1591

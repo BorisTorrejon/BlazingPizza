@@ -91,16 +91,17 @@ using BlazingPizza.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 30 "C:\Users\b_e_t\Documents\00PROJECTS\BlazingPizza\Client\Pages\Index.razor"
-      
+#line 56 "C:\Users\b_e_t\Documents\00PROJECTS\BlazingPizza\Client\Pages\Index.razor"
+       
     List<PizzaSpecial> Specials;
     Pizza ConfiguringPizza;
     bool ShowingConfigureDialog;
+    Order Order = new Order();
 
 
     protected async override Task OnInitializedAsync()
     {
-        Specials = await httpClient.GetFromJsonAsync<List<PizzaSpecial>>("specials");
+        Specials = await HttpClient.GetFromJsonAsync<List<PizzaSpecial>>("specials");
     }
 
     void ShowConfigurePizzaDialog(PizzaSpecial special)
@@ -114,11 +115,31 @@ using BlazingPizza.Shared;
         };
         ShowingConfigureDialog = true;
     }
+    void CancelConfigurePizzaDialog()
+    {
+        ConfiguringPizza = null;
+        ShowingConfigureDialog = false;
+    }
+    void ConfirmConfigurePizzaDialog()
+    {
+        Order.Pizzas.Add(ConfiguringPizza);
+        ConfiguringPizza = null;
+        ShowingConfigureDialog = false;
+    }
+    void RemoveConfiguredPizza(Pizza pizza)
+    {
+        Order.Pizzas.Remove(pizza);
+    }
+    async Task PlaceOrder()
+    {
+        await HttpClient.PostAsJsonAsync("orders", Order);
+        Order = new Order();
+    }
 
 #line default
 #line hidden
 #nullable disable
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private HttpClient httpClient { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private HttpClient HttpClient { get; set; }
     }
 }
 #pragma warning restore 1591
