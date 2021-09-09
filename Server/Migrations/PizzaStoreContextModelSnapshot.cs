@@ -62,7 +62,7 @@ namespace BlazingPizza.Server.Migrations
                     b.Property<int?>("DeliveryAddressId")
                         .HasColumnType("int");
 
-                    b.Property<string>("UserID")
+                    b.Property<string>("UserId")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("OrderId");
@@ -123,18 +123,13 @@ namespace BlazingPizza.Server.Migrations
 
             modelBuilder.Entity("BlazingPizza.Shared.PizzaTopping", b =>
                 {
-                    b.Property<string>("PizzaId")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<int>("PizzaId")
+                        .HasColumnType("int");
 
                     b.Property<int>("ToppingId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("PizzaId1")
-                        .HasColumnType("int");
-
                     b.HasKey("PizzaId", "ToppingId");
-
-                    b.HasIndex("PizzaId1");
 
                     b.HasIndex("ToppingId");
 
@@ -206,7 +201,9 @@ namespace BlazingPizza.Server.Migrations
                 {
                     b.HasOne("BlazingPizza.Shared.Pizza", null)
                         .WithMany("Toppings")
-                        .HasForeignKey("PizzaId1");
+                        .HasForeignKey("PizzaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("BlazingPizza.Shared.Topping", "Topping")
                         .WithMany()

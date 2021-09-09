@@ -27,7 +27,9 @@ namespace BlazingPizza.Server.Models
 
             modelBuilder.Entity<PizzaTopping>()
                 .HasOne(pst => pst.Topping).WithMany();
-            modelBuilder.Entity<Order>().OwnsOne(o => o.DeliveryLocation);
+
+            modelBuilder.Entity<Order>()
+                .OwnsOne(o => o.DeliveryLocation);
 
         }
     }

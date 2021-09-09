@@ -245,3 +245,5 @@ C:\Users\b_e_t\Documents\00PROJECTS\BlazingPizza\Server\obj\Debug\netcoreapp3.1\
 C:\Users\b_e_t\Documents\00PROJECTS\BlazingPizza\Server\obj\Debug\netcoreapp3.1\BlazingPizza.Server.dll
 C:\Users\b_e_t\Documents\00PROJECTS\BlazingPizza\Server\obj\Debug\netcoreapp3.1\BlazingPizza.Server.pdb
 C:\Users\b_e_t\Documents\00PROJECTS\BlazingPizza\Server\obj\Debug\netcoreapp3.1\BlazingPizza.Server.genruntimeconfig.cache
+C:\Users\b_e_t\Documents\00PROJECTS\BlazingPizza\Server\bin\Debug\netcoreapp3.1\BlazingPizza.ComponentsLibrary.dll
+C:\Users\b_e_t\Documents\00PROJECTS\BlazingPizza\Server\bin\Debug\netcoreapp3.1\BlazingPizza.ComponentsLibrary.pdb
